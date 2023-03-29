@@ -1,0 +1,50 @@
+nav {
+  height: 50px;
+}
+
+.contenedor {
+  height: calc(100vh - 100px);
+  justify-content: space-between;
+  display: flex;
+}
+
+.imagen_pokemon {
+  width: 100%;
+  background-color: #adff2f;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.info_pokemones {
+  width: 100%;
+  background-color: beige;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.datos {
+  width: 60%;
+  height: 60%;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 10px;
+  box-shadow: 0 0 5px #be3232;
+}
+
+.datos table {
+  font-size: 14px;
+}
+
+.datos table .negrilla {
+  font-weight: 700;
+}
+
+.imagen_pokemon img {
+  max-width: 80%;
+  max-height: 80%;
+}
+
+/*# sourceMappingURL=index.2cdaf7bc.css.map */
